@@ -1,0 +1,209 @@
+﻿/* CSS HEX 
+--true-blue: #3066beff;
+--viridian-green: #119da4ff;
+--honey-yellow: #f6ae2dff;
+--safety-orange-blaze-orange: #f26419ff;
+--cultured: #f7f9f9ff;
+*/
+html{
+    background-size: cover;
+    background-image: url(img/fire.gif)
+}
+body {
+    margin: auto;
+    width: 80%;
+    background-image: linear-gradient( #FF9900 50%, black);
+    color: black;
+}
+
+main{
+    min-height: 400px;
+}
+
+footer {
+    display:block;
+    margin:auto;
+    padding: 50px;
+    height: 50px;
+    text-align: right;
+    clear: both;
+    color:  #FF9900;
+}
+
+a, a::after{
+    color: black;
+}
+
+header {
+    display: block;
+    background-image:linear-gradient(black 70%,  #FF9900 5%);
+    color:  #FF9900;
+    text-align: center;
+    height: 200px; 
+}
+
+h2{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 1.8em;
+    letter-spacing: 0.2em;
+}
+
+li{
+    text-align: center;
+    padding: 10px 0;
+    list-style-type: none;
+}
+
+li:hover{
+    background-color: black;
+    color:  #FF9900;
+}
+
+form{
+    margin:auto;
+    display: block;
+}
+
+#monthly{
+    margin:auto;
+    text-align:center;
+    color:green;
+    font-size:2em;
+    height: 50px;
+}
+
+.delete{
+    display:block;
+    margin:auto;
+}
+
+section{
+    margin: 20px;
+    float:left;
+    width: 65%;
+}
+
+table {
+    table-layout: fixed;
+    margin:auto;
+    width: 90%;    
+    border-collapse: collapse;
+}
+
+td{
+    padding: 10px 0;
+}
+
+.waitlist td, .waitlist th, .customerTable td, .customerTable th{
+    text-align: center;
+    border: 2px solid black;
+}
+
+th{
+    padding:5px;
+    background-color:  #FF9900;
+    color: Black;
+}
+
+#calcbutton{
+    display: block;
+    margin:auto;
+    clear:both;
+}
+
+button, .button{
+    width:auto;
+    white-space: pre-line;
+    background-color: white;
+    color: #3066be;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: large;
+    box-shadow: 0 9px #000022;
+}
+
+button:hover, .button:hover{
+    background-color: #03B5AA;
+    color: white;
+}
+
+button:active, .button:active{
+    background-color: #03B5AA;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+aside{
+    margin: 20px;
+    float:left;
+    width:20%;
+}
+
+.c1, .c2, .c3{
+    display:block;
+    margin: auto;
+    width:33%;
+    float:left;
+}
+
+.home{
+    display:block;
+    width:100%;
+    margin:30px auto;
+}
+
+.add{
+    margin:10px auto;
+    display: block;
+    width:70%;
+    float:left;
+}
+
+input, select{
+    margin:auto;
+    display:block;
+    width:80%;
+}
+
+.topnav {
+width:100%;
+padding: 10px 0;
+margin:auto;
+background-color: black;
+overflow: hidden;
+}
+   
+.topnav a {
+color: white;
+text-align: center;
+padding: 30px;
+margin: auto;
+text-decoration: none;
+font-size: 20px;
+}
+    
+.topnav a:hover {
+background-color:  #FF9900;
+color: black;
+}
+    
+#active {
+background-color:  #FF9900;
+color: black;
+}
+    
+.topnav a:visited{
+    color: white;
+}
+
+.rpttotals{
+    font-size: 3em;
+    text-align: center;
+    border-radius: 50%;
+}

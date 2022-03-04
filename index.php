@@ -1,0 +1,1 @@
+<?php require 'student_manager\index.php'; ?>
